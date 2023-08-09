@@ -10,7 +10,7 @@ export default function Admin({
   return (
     <Fragment>
       <h1>Admin</h1>
-      <span>User ID: {userId}</span>
+      <span>User</span>
       <form method="POST" action="/api/auth/logout">
         <button>Logout</button>
       </form>
